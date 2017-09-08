@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "Menu.dtd">
+
+<menu background='225 225 225' font='media/menu/AGENTORANGE.TTF'>
+		<element num='1' type='wide' action='change' next='GameOptions' position='600 0' key='ESC'>options</element>
+		<element num='2' type='wide' action='send next wave' position='600 550' key=' '>next wave</element>
+		
+		<element num='3' type='wide icon' texture='media/menu/fire.png' action='tower' data='1' position='600 350' setvisible='false' font='media/menu/akaDylanPlain.ttf' charactersize='13' key='F' alignment='left'>fire</element>
+		
+		<element num='4' type='wide icon' texture='media/menu/water.png' action='tower' data='2' position='600 400' setvisible='false' font='media/menu/akaDylanPlain.ttf'  charactersize='13' key='W' alignment='left'>water</element>
+		
+		<element num='5' type='wide icon' texture='media/menu/air.png' action='tower' data='3' position='600 450' setvisible='false' font='media/menu/akaDylanPlain.ttf' charactersize='13' key='A' alignment='left'>air</element>
+		
+		<element num='6' type='wide icon' texture='media/menu/earth.png' action='tower' data='4' position='600 500' setvisible='false' font='media/menu/akaDylanPlain.ttf' charactersize='13' key='E' alignment='left'>earth</element>
+		
+		<element num='7' type='wide' font='media/menu/akaDylanPlain.ttf' charactersize='13' action='modify' data='0' position='600 350' setvisible='false' alignment='left'>rate++</element>
+		<element num='8' type='wide' font='media/menu/akaDylanPlain.ttf' charactersize='13' action='modify' data='1' position='600 400' setvisible='false' alignment='left'>range++</element>
+		<element num='9' type='wide' font='media/menu/akaDylanPlain.ttf' charactersize='13' action='modify' data='2' position='600 450' setvisible='false' alignment='left'>strength++</element>
+		<element num='10' type='wide' font='media/menu/akaDylanPlain.ttf' charactersize='13' action='tower' data='0' position='600 500' setvisible='false' key='DELETE' alignment='left'>sell</element>
+</menu>

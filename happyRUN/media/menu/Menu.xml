@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "Menu.dtd">
+
+<menu background='225 225 225' font='media/menu/AGENTORANGE.TTF'>
+		<element num='0' type='wide' action='change' next='map1' position='300 125' key=' ' >new game</element>
+		<element num='1' type='wide' action='change' next='options' position='300 275'>options</element>
+		<element num='2' type='wide' action='quit' position='300 425'>quit</element>
+</menu>

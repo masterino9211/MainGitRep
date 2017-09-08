@@ -1,0 +1,44 @@
+Projekat iz razvoja softvera
+
+Darko Đurić 306/2011
+Aleksandar Pavlović 406/2012
+Marko Čupić 414/2013
+
+============================
+
+Jezici:
+	C++ (C++11)
+	Python (3.4)
+
+Korišćene biblioteke:
+SFML (Simple and Fast Multimedia Library)
+	Višeplatformska biblioteka napisana u C++. Omogućava rad sa OpenGL-om, OpenAL,
+	FreeType i različitim protokolima (pre svega HTTP i FTP)
+	U toku razvoja je korišćena verzija 2.1, kompatibilna je sa 2.x verzijama.
+
+pugixml
+	Pugixml je brza i jednostavna biblioteka za obradu XML-a.
+	Korišćena je verzija 1.4
+
+
+============================
+
+Žanr igre je tower defense, odnosno strategija u kojoj je cilj igrača da propusti
+što manje neprijatelja do cilja postavljanjem kula koje ih napadaju.
+
+
+============================
+
+Projekat nije završen, odnosno projekat nije bio završen ni kada je bila odbrana
+radova, ali je bio funkcionalniji. Nakon pada repozitorijuma, ta verzija je
+izgubljena, dok je ova verzija nešto starija.
+
+
+
+============================
+
+Nedostaci koje sam mogao da uočim u ovoj verziji:
+Postoji samo jedna mapa (postoji demonstrativno).
+U nekim situacijama se neprijatelji kreću haotično, odnosno, skaču na sledeću poziciju.
+...
+

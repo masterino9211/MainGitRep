@@ -1,0 +1,145 @@
+<!--
+<map> atributi: starting_money, lives
+<layout> atributi: source, drain
+<field> atributi: type, view
+<waves> atributi: points
+<wave> atributi: points, reward
+<creep> atributi: type, time, speed, health, bounty, points
+        
+-->
+<?xml version="1.0"?>
+
+<!DOCTYPE map SYSTEM "map.dtd">
+<map starting_money='500' lives='20'>
+    <layout source='0 0' drain='14 14'>
+        <row>
+            <field type='1'  ></field><field type='2'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='2'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='2'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+        <row>
+            <field type='1'  ></field><field type='2'  ></field><field type='0'  ></field><field type='2'  ></field><field type='0'  ></field>
+            <field type='2 '  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='2'  ></field><field type='0'  ></field><field type='2'  ></field><field type='0'  ></field>
+            <field type='2'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='2'  ></field><field type='0'  ></field><field type='2'  ></field><field type='0'  ></field>
+            <field type='2'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='2'  ></field><field type='0'  ></field><field type='2'  ></field><field type='0'  ></field>
+            <field type='2'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='2'  ></field><field type='0'  ></field>
+            <field type='2'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='2'  ></field><field type='2'  ></field><field type='2'  ></field><field type='2'  ></field><field type='0'  ></field>
+            <field type='2'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+<row>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+            <field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field><field type='0'  ></field>
+        </row>
+    </layout>
+    <waves points='5000000'>
+        <wave points='200000' reward='200'>
+            <creep  type='germ' time='1.0' speed='10.0' health='50' bounty='20' points='1000'></creep >
+            <creep  type='germ' time='2.0' speed='1.0' health='50' bounty='20' points='1000'></creep >
+            <creep   type='germ' time='3.0' speed='1.0' health='50' bounty='20' points='1000'></creep >
+            <creep  type='germ' time='4.0' speed='1.0' health='50' bounty='20' points='1000'></creep >
+            <creep  type='germ' time='5.0' speed='1.0' health='50' bounty='20' points='1000'></creep >
+            <creep  type='devil' time='5.5' speed='0.5' health='100' bounty='50' points='2000'></creep >
+        </wave>
+        <wave points='350000' reward='350'>
+            <creep  type='iluminati' time='1.0' speed='1.2' health='150' bounty='35' points='1500'></creep >
+            <creep  type='iluminati' time='1.5' speed='1.2' health='150' bounty='35' points='1500'></creep >
+            <creep  type='iluminati' time='2.0' speed='1.2' health='150' bounty='35' points='1500'></creep >
+            <creep  type='iluminati' time='2.5' speed='1.2' health='150' bounty='35' points='1500'></creep >
+            <creep  type='iluminati' time='3.0' speed='1.2' health='150' bounty='35' points='1500'></creep >
+            <creep  type='iluminati' time='3.5' speed='1.2' health='150' bounty='35' points='1500'></creep >
+        </wave>
+        <wave points='430000' reward='430'>
+            <creep  type='swarmling' time='1.0' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='1.2' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='1.4' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='1.6' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='1.8' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='2.0' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='2.2' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='2.4' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='2.6' speed='2.0' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='2.8' speed='2.0' health='250' bounty='20' points='500'></creep ><!--bug-->
+        </wave>
+        <wave points='55000' reward='550'>
+            <creep  type='devil' time='1.0' speed='0.5' health='250' bounty='50' points='2000'></creep >
+            <creep  type='devil' time='2.5' speed='0.5' health='250' bounty='50' points='2000'></creep >
+            <creep  type='devil' time='4.0' speed='0.5' health='250' bounty='50' points='2000'></creep >
+            <creep  type='devil' time='5.5' speed='0.5' health='250' bounty='50' points='2000'></creep >
+        </wave>
+        <wave points='700000' reward='700'>
+            <creep  type='swarmling' time='0.5' speed='10.0' health='25' bounty='20' points='500'></creep ><!--bug-->
+            <creep  type='devil' time='1.0' speed='0.5' health='500' bounty='120' points='5000'></creep >
+            <creep  type='devil' time='2.0' speed='0.5' health='500' bounty='120' points='5000'></creep >
+            <creep  type='iluminati' time='1.1' speed='1.4' health='180' bounty='45' points='1800'></creep >
+            <creep  type='iluminati' time='1.5' speed='1.4' health='180' bounty='45' points='1800'></creep >
+            <creep  type='iluminati' time='1.9' speed='1.4' health='180' bounty='45' points='1800'></creep >
+            <creep  type='iluminati' time='2.3' speed='1.4' health='180' bounty='45' points='1800'></creep >
+            <creep  type='iluminati' time='2.7' speed='1.4' health='180' bounty='45' points='1800'></creep >
+            <creep  type='iluminati' time='3.1' speed='1.4' health='180' bounty='45' points='1800'></creep >
+            <creep  type='swarmling' time='3.2' speed='2.5' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='3.3' speed='2.5' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='3.4' speed='2.5' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='3.5' speed='2.5' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='3.6' speed='2.5' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='3.7' speed='2.5' health='25' bounty='20' points='500'></creep >
+            <creep  type='swarmling' time='3.8' speed='0.2' health='25' bounty='20' points='500'></creep ><!--bug-->
+        </wave>
+    </waves>
+</map>

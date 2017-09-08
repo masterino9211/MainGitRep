@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Menu.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE menu SYSTEM "Menu.dtd">
+
+    <menu>
+    ...
+    </menu>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT menu (sub)*>
+<!ATTLIST menu
+    size CDATA #IMPLIED
+    id CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sub (icon)*>
+<!ATTLIST sub
+    disabled CDATA #IMPLIED
+    hover CDATA #IMPLIED
+    font CDATA #IMPLIED
+    color CDATA #IMPLIED
+    background CDATA #IMPLIED
+    id CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT icon (#PCDATA)>
+<!ATTLIST icon
+    position CDATA #IMPLIED
+    size CDATA #IMPLIED
+    img CDATA #IMPLIED
+    id CDATA #IMPLIED
+  >

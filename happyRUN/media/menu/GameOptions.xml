@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "Menu.dtd">
+
+<menu background='225 225 225' font='media/menu/AGENTORANGE.TTF'>
+		<element num='1' type='icon' action='audio' data='102' texture='media/menu/plus.png' position='200 200'></element>
+		<element num='2' type='icon' action='audio' data='103' texture='media/menu/minus.png' position='300 200'></element>
+		<element num='3' type='icon' action='audio' data='107' visible_count='1' visible='4' invisible_count='1' invisible='3' setvisible='false' texture='media/menu/mute.png' position='400 200'></element>
+		<element num='4' type='icon' action='audio' data='107' visible_count='1' visible='3' invisible_count='1' invisible='4'  texture='media/menu/unmute.png' position='400 200'></element>
+		<element num='5' type='wide' action='change' next='map1'  position='200 500'>game</element>
+		<element num='6' type='wide' action='change' next='main menu'  position='200 400'>main menu</element>
+</menu>

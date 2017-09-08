@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/map.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE map SYSTEM "map.dtd">
+
+    <map>
+    ...
+    </map>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT map (waves|layout)*>
+<!ATTLIST map
+    lives CDATA #IMPLIED
+    starting_money CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT layout (row)*>
+<!ATTLIST layout
+    drain CDATA #IMPLIED
+    source CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT row (field)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT field EMPTY>
+<!ATTLIST field
+    view CDATA #IMPLIED
+    type CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT waves (wave)*>
+<!ATTLIST waves
+    points CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT wave (creap)*>
+<!ATTLIST wave
+    reward CDATA #IMPLIED
+    points CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT creap EMPTY>
+<!ATTLIST creap
+    points CDATA #IMPLIED
+    bounty CDATA #IMPLIED
+    health CDATA #IMPLIED
+    speed CDATA #IMPLIED
+    time CDATA #IMPLIED
+    type CDATA #IMPLIED
+  >
