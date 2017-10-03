@@ -4,7 +4,7 @@ from os import path
 from sys import argv
 
 if len(argv) < 2:
-    cc = "g++ -Wall -std=c++11"
+    cc = "g++ -Wall -std=c++14"
 else:
     cc = argv[1]
 

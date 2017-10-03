@@ -7,6 +7,7 @@
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <SFML/System/Vector2.hpp>
 #include <array>
+#include <cmath>
 #include "pugixml.hpp"
 #include "SimpleField.h"
 

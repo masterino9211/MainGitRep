@@ -62,8 +62,8 @@ bool Creep::update(float time)
     } else {
         return false;
     }
-    mPosition.x = round(mPosition.x);
-    mPosition.y = round(mPosition.y);
+    mPosition.x = (round(mPosition.x));
+    mPosition.y =   (round(mPosition.y));
     float health = mCurrentHealth / mHealth;
     mHealthBar.setSize(Vector2f(10.f * health, 3));
     mHealthBar.setFillColor(Color((unsigned char)(255.f * (1 - health)), (unsigned char)(255.f * health), 0));

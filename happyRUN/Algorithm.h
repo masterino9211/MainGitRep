@@ -2,6 +2,7 @@
 #define _ALGORITHM_H
 
 #include <vector>
+#include <cmath>
 #include <SFML/Graphics/Image.hpp>
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Texture.hpp>
