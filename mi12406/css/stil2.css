@@ -1,0 +1,110 @@
+body{
+    background-color:whitesmoke;
+    
+}
+#telo{
+    background-color:RGB(185,202,222);
+    position:relative;
+    left:24%;
+    width:670px;
+    
+    border-left-color:RGB(83,94,99);
+    border-left-style:solid;
+    border-left-width: 10px;
+    border-right-color:RGB(83,94,99);
+    border-right-style:solid;
+    border-right-width: 10px;
+    border-bottom-color:RGB(83,94,99);
+    border-bottom-style:solid;
+    border-bottom-width: 10px;
+    color:darkblue;
+    font-size:20px;
+}
+#line{
+    background-color:RGB(83,94,99);
+    width:670px;
+    height:15px;
+    position:relative;
+    top:110px;
+}
+#line2{
+    background-color:RGB(83,94,99);
+    width:670px;
+    height:15px;
+    position:relative;
+    top:53px;
+}
+#welcome{
+    color:black;
+    font-style:inherit;
+    font-family:Impact;
+    font-size:20px;
+    position:relative;
+    top:100px;
+}
+#logo{
+    color:#303234;
+    font-family:Impact;
+    font-size:50px;
+    position:relative;
+    left:200px;
+    top :-20px;
+}
+li.meni{
+    border:1px solid;
+    display:inline;
+    background-color:RGB(83,94,99);
+    margin-left:10px;
+}
+.meni.a{
+    font-size:20px;
+}
+.meni a:link{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.meni a:active{
+    text-decoration: none;
+    color:white;
+}
+.meni a:hover{
+    text-decoration: none;
+    color:white;
+    background-color:black;
+}
+.meni a:visited{
+    text-decoration: none;
+    color:white;
+}
+ul{ 
+    position:relative;
+    top:50px;
+    
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+p.mojio{
+    position:relative;
+    top:40px;
+    color:black;
+    font-family:"Times New Roman", Times, serif;
+    font-size:22px;
+}
+#mainframe{
+    position:relative;
+    top:25px;
+}
+
+textarea{resize: none}
+#novi_oglas{
+    color:darkblue;
+    font-size:20px;
+}
+#inner_body{
+    position:relative;
+    top:60px;
+    color:darkblue;
+    font-size:20px;
+}

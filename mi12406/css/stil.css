@@ -1,0 +1,55 @@
+#main{
+    position:relative;
+    left:24%;
+    width:48%;
+    height:220px;
+   
+}
+#create{
+    position:relative;
+    border: 3px solid;
+    width:230px;
+    height:110px;
+    background-image:url('../slike/background1.jpg');
+}
+#login{
+    top:20px;
+    position:relative;
+    border: 3px solid;
+    width:230px;
+    height:130px;
+    background-image:url('../slike/background1.jpg');
+}
+.info{
+    position:relative;
+    top:-13px;
+    left:5px;
+}
+.info2{
+    position:relative;
+    top:-31px;
+    left:99px;
+}
+#text{
+    position:relative;
+    left:500px;
+    top:-220px;
+    width:60%;
+    height:27%;
+    color:gray;
+    font-size:40px;
+    font-style: italic;
+}
+body{
+    background-color:whitesmoke;
+}
+p{
+    position:relative;
+    
+}
+fieldset.indeks{
+    width:230px;
+    border:0;
+    position:relative;
+    left:-10px;
+}

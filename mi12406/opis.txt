@@ -1,0 +1,5 @@
+Seminarski rad sadrzi 4 tabele , users (korisnike) , i 3 tabele sa oglasima koje su stranim kljucevima vezane za korisnike .
+Svaki korisnk  ima 'id' koji je auto inkrementirajuci  i koji je primarni kljuc te tabele , takodje u tabeli koristnici (users) se cuvaju korisnicko 
+ime i lozinka . 
+Tri tabele sa oglasima imaju primarne kljuceve id i naziv oglasa tako da razliciti korisnici mogu da postave isti oglas .
+Moguca je izmena kolone lozinka u tabeli users .

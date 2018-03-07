@@ -1,0 +1,11 @@
+Pozdrav,
+Seminarski uradjen po spisku propozijcija.
+Pri pokretanju otvara se stranica za logovanje i otvaranje naloga koji se cuvaju u tabeli users.
+Nakon logovanja otvara se glava stranica sa mogucnoscu promene lozinke , navigacionim barom ka drugim stranicama.
+Mogucnost pregleda svih oglasa kao i pravljenja licnih . 
+Trajno logovanje realizovano preko kolacica 
+Seminarski testiran na pregledacu Google Chrome , verzija 29.0.1547.62 m
+Koriscen CSS 2.1
+Postoji easter egg u seminarskom , logovati se kao korisnik ime:tardis lozinka:tardis .
+Kod sporijih racunara animacija na stranici index.php se baguje.
+
